@@ -1,0 +1,35 @@
+.container {
+    column-count: 3;
+    column-gap: 1vw;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.card {
+    display: inline-block;
+    margin-bottom: 3vh;
+}
+
+.card img {
+    width: 31vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        column-count: 2;
+    }
+
+    .card img {
+        width: 46vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        column-count: 1;
+    }
+
+    .card img {
+        width: 92vw;
+    }
+}

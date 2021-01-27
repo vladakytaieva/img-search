@@ -1,0 +1,15 @@
+.search-area {
+  min-height: 100px;
+  height: 20vh;
+  flex-direction: column; 
+}
+
+.search {
+  margin: auto;
+  width: 300px; 
+  padding: 8px;
+}
+  
+.search:focus {
+  outline: none;
+}

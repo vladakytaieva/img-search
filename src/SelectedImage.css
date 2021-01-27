@@ -1,0 +1,13 @@
+.back {
+    margin: 10px;
+    color: #444;
+}
+
+.back:focus {
+    outline: none;
+    border-color: #777;
+}
+
+.img {
+    height: 80vh;
+  }
